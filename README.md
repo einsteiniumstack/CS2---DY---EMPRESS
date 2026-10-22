@@ -12,10 +12,8 @@ This program calculates the total electricity bill.
 - Does not include input validation.
 
 ## Version 2 - Updated code with input validation
-- Input: Accepts customer name and checks if it is not empty.
-         Accepts previous meter reading and checks if it is AT LEAST zero.
-         Accepts current meter reading and checks if it is AT LEAST the value of previous meter reading.
+- Input: Accepts customer name, previous meter reading, and current meter reading.
 - Process: Calculates the difference for consumption , and multiplies with RATE for total bill.
 - Output: Consumption and total bill.
-- Includes input validation.
+- Input VALIDATION: Checks if customer name is not empty, if previous meter reading is at least zero, and if current meter reading is equal to or greater than the value of previous meter reading.
 
